@@ -16,8 +16,12 @@ let age = promt("Gues Earl's age ...")
 let result = ~${fname} ${lname} is ${age} years old.~;
 atlert(result);
 
-//next
+//next default parameters
+function welcome(user="mystery person", message="Goodday"){
+atlert(~Hello ${user}, ${message} ~)
 
+}
+welcome();
 
 
 
