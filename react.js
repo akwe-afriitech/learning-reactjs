@@ -13,7 +13,10 @@ let fname = 'Earl';
 let lname = 'Zeus';
 let age = promt("Gues Earl's age ...")
 
-let result = ~${fname} ${lname} 'is' ${age} 'years old.'
+let result = ~${fname} ${lname} is ${age} years old.~;
+atlert(result);
+
+//next
 
 
 
