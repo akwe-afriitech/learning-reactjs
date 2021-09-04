@@ -23,6 +23,11 @@ atlert(~Hello ${user}, ${message} ~)
 }
 welcome();
 
+//arrow function
+// to write arrow functions that have just one arguement and one statement,we do not need not necessarily need the return funtion
+//eg
+let greeting = message => alert(~${message}everyone~);
+greeting('Good day everyone')
 
 
 
