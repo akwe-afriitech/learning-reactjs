@@ -18,7 +18,7 @@ atlert(result);
 
 //next default parameters
 function welcome(user="mystery person", message="Goodday"){
-atlert(~Hello ${user}, ${message} ~)
+alert(~Hello ${user}, ${message} ~)
 
 }
 welcome();
@@ -28,7 +28,17 @@ welcome();
 //eg
 let greeting = message => alert(~${message}everyone~);
 greeting('Good day everyone')
-
+//for multiple arguements and statements, we have
+let creatBlog = (title,body) => {
+  if (!title){
+    throw new Error('a title is required');
+    }
+  if (!body){
+    throw new Error('a body is needed');
+  }
+  then return alert(~${title} - ${body} ~);
+}
+creatBlog('blog title' ,'blog body')
 
 
 
