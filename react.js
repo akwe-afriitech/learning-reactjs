@@ -36,7 +36,7 @@ let creatBlog = (title,body) => {
   if (!body){
     throw new Error('a body is needed');
   }
-  then return alert(~${title} - ${body} ~);
+   return alert(~${title} - ${body} ~);
 }
 creatBlog('blog title' ,'blog body')
 
