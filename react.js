@@ -32,7 +32,7 @@ greeting('Good day everyone')
 let creatBlog = (title,body) => {
   if (!title){
     throw new Error('a title is required');
-    }
+    } 
   if (!body){
     throw new Error('a body is needed');
   }
@@ -40,7 +40,7 @@ let creatBlog = (title,body) => {
 }
 creatBlog('blog title' ,'blog body')
 
-
+//
 
 
 
