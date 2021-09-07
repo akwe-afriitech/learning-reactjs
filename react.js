@@ -40,7 +40,7 @@ let creatBlog = (title,body) => {
 }
 creatBlog('blog title' ,'blog body')
 
-//
+//creating
 
 
 
