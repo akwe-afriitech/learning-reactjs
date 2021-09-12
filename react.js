@@ -6,7 +6,7 @@ atlert(name);
 let name = 'Earl'
 
 //third way to declare a vatriable that doest change
-const name ='Zeus'
+const name ='Zeus PRIME'
 
 //next creating template strings
 let fname = 'Earl';
