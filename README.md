@@ -1,2 +1,2 @@
 # learning-reactjs
-basic react for beginners
+basic js and react for beginners
